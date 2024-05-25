@@ -1,6 +1,6 @@
 .Header{
     background: var(--green);
-    width: 100vw;
+    /* width: 100vw; */
     height: 123px;
 }
 .nav{

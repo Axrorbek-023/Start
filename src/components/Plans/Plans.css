@@ -1,5 +1,9 @@
-.Plans{
-
+.Plans__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 78px;
+    flex-wrap: wrap;
 }
 .Plans__item{
     width: 339px;
@@ -8,6 +12,7 @@
     box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
     background: rgb(255, 255, 255);
     padding-top: 46px;
+    padding-bottom: 46px;
     .Plans__h4{
         font-family: 'Work Sans', sans-serif;
         text-align: center;
@@ -19,4 +24,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Plans__p{
+    width: 279px;
+    height: 57px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.Plans__box2{
+    margin-left: 30px;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 11px;
+    img{
+        width: 17.19px;
+        height: 13.28px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.Plans__btn{
+    width: 170px;
+    height: 48px;
+    color: white;
+    border-radius: 5px;
+    background: rgb(33, 37, 41);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
 }

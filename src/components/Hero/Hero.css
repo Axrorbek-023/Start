@@ -1,6 +1,6 @@
 .Hero{
     background-color: var(--green);
-    width: 100vw;
+    /* width: 100vw; */
     margin: 0 auto;
     overflow: hidden;
     overflow-x: hidden ;
