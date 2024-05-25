@@ -1,0 +1,22 @@
+.Plans{
+
+}
+.Plans__item{
+    width: 339px;
+    height: 542px;
+    border-radius: 5px; 
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    padding-top: 46px;
+    .Plans__h4{
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.Plans__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

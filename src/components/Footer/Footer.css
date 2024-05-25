@@ -1,0 +1,12 @@
+.Footer{
+    background: var(--green);
+    width: 100vw;
+    height: 125px;
+    margin-top: 54px;    
+    padding-top: 54px;
+}
+.f-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
