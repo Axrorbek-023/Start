@@ -26,14 +26,14 @@ function Partners() {
                 <img src={air} alt="" />
                 <img src={fc} alt="" />
                 <img src={sp} alt="" />
-            </div>
+            </div> 
             <button className='Part__btn'>
                 <p>Learn More</p>
             </button>
 
             <ul className='Part__list'>
                 <li className='Part__item'>
-                    <img src={massage} alt="" />
+                    <img className='item__img' src={massage} alt="" />
                     <div className='item__div'>
                         <h1 className='item__h1'>Lorem ipsum dolor sit amet consectetur</h1>
                         <p className='item__p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
@@ -41,7 +41,7 @@ function Partners() {
                     </div>
                 </li>
                 <li className='Part__item'>
-                    <img src={massage2} alt="" />
+                    <img className='item__img' src={massage2} alt="" />
                     <div className='item__div'>
                         <h1 className='item__h1'>Lorem ipsum dolor sit amet consectetur</h1>
                         <p className='item__p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>

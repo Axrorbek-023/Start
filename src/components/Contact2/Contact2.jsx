@@ -6,7 +6,7 @@ function Contact2() {
   return (
     <div>
         <div className="container">
-            <h1 className='h1'>Contact us</h1>
+            <h1 className='h1__1'>Contact us</h1>
             <p className='p'>Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit.</p>
 
@@ -23,7 +23,7 @@ function Contact2() {
                 <button className='form__btn'>Submit</button>
               </div>
               <div>
-                <img src={xarita} alt="" />
+                <img className='xarita' src={xarita} alt="" />
               </div>
             </div>
         </div>

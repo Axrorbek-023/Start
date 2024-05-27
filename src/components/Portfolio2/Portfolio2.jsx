@@ -21,51 +21,35 @@ function Portfolio2() {
                 adipisicing elit.</p>
           <ul className='Works__list'>
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio1} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio2} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio3} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio4} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio5} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio6} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio7} alt="" />
-
             </li>
 
             <li className='Works__item'>
-
               <img className='Works__img' src={portfolio8} alt="" />
-
             </li>
 
           </ul>

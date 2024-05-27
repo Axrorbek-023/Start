@@ -2,10 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 78px;
+    margin-top: 48px;
     flex-wrap: wrap;
 }
 .Plans__item{
+    margin: 0 auto;
+    margin-top: 20px;
     width: 339px;
     height: 542px;
     border-radius: 5px; 
@@ -13,6 +15,8 @@
     background: rgb(255, 255, 255);
     padding-top: 46px;
     padding-bottom: 46px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     .Plans__h4{
         font-family: 'Work Sans', sans-serif;
         text-align: center;
@@ -26,7 +30,7 @@
     justify-content: center;
 }
 .Plans__p{
-    width: 279px;
+    width: 270px;
     height: 57px;
     margin-top: 10px;
     font-size: 15px;
@@ -37,12 +41,13 @@
 }
 .Plans__box2{
     margin-left: 30px;
-    margin-bottom: 17px;
+    /* margin-bottom: 17px; */
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 11px;
     img{
+        margin-top: -12px;
         width: 17.19px;
         height: 13.28px;
     }
@@ -52,15 +57,39 @@
     }
 }
 .Plans__btn{
-    width: 170px;
-    height: 48px;
+    width: 150px;
+    height: 38px;
     color: white;
     border-radius: 5px;
     background: rgb(33, 37, 41);
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     display: block;
     margin: 0 auto;
-    margin-top: 48px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 860px) {
+    .Plans__item{
+        width: 310px;
+        height: 520px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* .Plans__box2{
+        gap: 3px;
+    } */
+    .Plans__item{
+        margin-right: 25px;
+        width: 280px;
+        height: 500px;
+    }
+    .Plans__btn{
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: -7px;
+    }
 }
