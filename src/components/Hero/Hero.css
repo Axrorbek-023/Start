@@ -473,15 +473,13 @@
 
 @media only screen and (max-width: 500px) {
     .umumiy{
+        /* height: 514px; */
         margin-top: -40px;
-        display: block;
+        flex-direction: column-reverse;
         .left{
-            transform: translateY(320px);
+            margin-top: 20px;
             h6{
                 font-size: 15px;
-                font-weight: 700;
-                margin-top: -20px;
-                margin-bottom: -16px;
             }
             h1{
                 font-size: 18px;
@@ -490,9 +488,7 @@
                 margin-top: -10px;
                 width: 235px;
                 height: 66px; 
-                font-size: 15px;
-                font-weight: 400;
-                margin-bottom: 23px;
+                font-size: 13px;
             }
             .Hero__btn{
                 /* margin-top: 10px; */
@@ -501,37 +497,24 @@
                 font-size: 15px;
             }
         }
-        .right{
-            transform: translateY(-180px);
-            text-align: center;
-            img{
-                width: 385px;
-                height: 290px;
-            }
-        }
+      
     }
 }
 
 
 @media only screen and (max-width: 440px) {
     .umumiy{
-        margin-top: -40px;
-        display: block;
         .left{
-            transform: translateY(320px);
             h6{
                 font-size: 15px;
                 font-weight: 700;
-                margin-top: -20px;
-                margin-bottom: -16px;
             }
             h1{
-                font-size: 18px;
+                font-size: 16px;
             }
             p{
-                margin-top: -10px;
-                font-size: 15px;
-                margin-bottom: 23px;
+                text-align: left;
+                font-size: 10px;
             }
             .Hero__btn{
                 width: 100px;
@@ -540,39 +523,22 @@
                 margin-bottom: 15px;
             }
         }
-        .right{
-            transform: translateY(-180px);
-            text-align: center;
-            img{
-                width: 345px;
-                height: 240px;
-            }
-        }
     }
 }
 
 
 @media only screen and (max-width: 385px) {
-    .Hero{
-        height: 600px;
-    }
     .umumiy{
-        margin-top: -40px;
-        display: block;
-        text-align: center;
         .left{
-            transform: translateY(320px);
             h6{
                 font-size: 15px;
                 font-weight: 700;
-                margin-top: -30px;
                 margin-bottom: -16px;
             }
             h1{
                 font-size: 18px;
             }
             p{
-                margin-top: -10px;
                 width: 235px;
                 height: 66px; 
                 font-size: 15px;
@@ -583,15 +549,8 @@
                 width: 80px;
                 height: 32px;
                 font-size: 13px;
-                margin-bottom: 15px;
-            }
-        }
-        .right{
-            transform: translateY(-180px);
-            text-align: center;
-            img{
-                width: 305px;
-                height: 200px;
+                /* margin-bottom: 15px; */
+                margin-top: 20px;
             }
         }
     }

@@ -220,15 +220,14 @@
             margin: 0 auto;
         }
         .item__div{
-            margin-right: 30px;
             .item__h1{
                 margin-top: 30px;
                 margin-bottom: 20px;
-                text-align: center;
+                /* text-align: center; */
             }
             .item__p{
                 margin-bottom: 20px;
-                text-align: center;
+                /* text-align: center; */
             }
         }
         .item__btn{
@@ -248,14 +247,14 @@
             margin: 0 auto;
         }
         .item__div{
-            margin-left: 60px;
             .item__h1{
                 margin-top: 30px;
                 margin-bottom: 20px;
-                text-align: center;
+                margin-left: 50px;
             }
             .item__p{
                 margin-bottom: 20px;
+                margin-left: 50px;
             }
         }
         .item__btn{
@@ -284,141 +283,43 @@
             width: 400px;
             height: 321px;
         }
-        .item__div{
-            margin: 0px 80px 0px 60px;
-        }
+        /* .item__div{
+           margin: 0 auto;
+        } */
     }
     .Part__item:nth-child(2){
         .item__img{
             width: 400px;
             height: 321px;
         }
-        .item__div{
-            margin: 0px 80px 0px 60px;
-        }
+        /* .item__div{
+            margin: 0 auto;
+        } */
     }
 }
 
 @media only screen and (max-width: 482px) {
     .Part__item{
         .item__img{
-            width: 300px;
-            height: 221px;
+            width: 280px;
+            height: 211px;
         }
     }
     .Part__item:nth-child(2){
         .item__img{
-            width: 300px;
-            height: 221px;
+            width: 280px;
+            height: 211px;
         }
-    }
-}
-
-
-@media only screen and (max-width: 440px) {
-    .umumiy{
-        margin-top: -50px;
-        display: block;
-        .left{
-            transform: translateY(320px);
-            h6{
-                font-size: 12px;
-                font-weight: 700;
+        .item__div{
+            .item__h1{
+                margin-top: 30px;
+                margin-bottom: 20px;
+                margin-left: 70px;
             }
-            h1{
-                font-size: 15px;
+            .item__p{
+                margin-bottom: 20px;
+                margin-left: 70px;
             }
-            p{
-                text-align: center;
-                margin-top: -10px;
-                width: 235px;
-                height: 66px; 
-                font-size: 12px;
-                font-weight: 400;
-                margin-bottom: 23px;
-            }
-            .Hero__btn{
-                width: 100px;
-                height: 42px;
-                font-size: 15px;
-                margin-bottom: 15px;
-            }
-        }
-        .right{
-            transform: translateY(-180px);
-            text-align: center;
-            img{
-                width: 345px;
-                height: 240px;
-            }
-        }
-    }
-    .item__h1{
-        width: 200px;
-        margin: 0 auto;
-        margin-left: -20px;
-    }
-    .item__p{
-        width: 200px;
-        margin: 0 auto;
-        margin-left: -20px;
-        display: block;
-    }
-}
-
-
-@media only screen and (max-width: 385px) {
-    .Hero{
-        height: 600px;
-    }
-    .umumiy{
-        margin-top: -40px;
-        display: block;
-        .left{
-            transform: translateY(320px);
-            h6{
-                font-size: 15px;
-                font-weight: 700;
-                margin-top: -30px;
-                margin-bottom: -16px;
-            }
-            h1{
-                font-size: 18px;
-            }
-            p{
-                /* margin-top: -10px; */
-                font-size: 15px;
-                font-weight: 400;
-                /* margin-bottom: 23px; */
-            }
-            .Hero__btn{
-                width: 80px;
-                height: 32px;
-                font-size: 13px;
-                margin-bottom: 15px;
-            }
-        }
-        .right{
-            transform: translateY(-180px);
-            text-align: center;
-            img{
-                width: 305px;
-                height: 200px;
-            }
-        }
-    }
-    .Part__btn{
-        width: 170px;
-        height: 48px;
-        border-radius: 5px;
-        background: rgb(33, 37, 41);
-        margin-top: 68px;
-        padding-top: 8px;
-        p{
-            font-family: 'Work Sans', sans-serif;
-            color: white;
-            font-size: 20px;
-            font-weight: 400;
         }
     }
 }
