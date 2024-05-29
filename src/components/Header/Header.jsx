@@ -32,12 +32,12 @@ function Header() {
           </li>
         </ul>
 
-        <div className="canvars offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">pages table</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div className="canvars offcanvas offcanvas-end " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasRightLabel">pages table</h5>
+            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div className="offcanvas-body">
             <ul className='pages__list'>
               <li className='pages__item'>
                 <Link className={location == '/' ? 'active' : null} to='/'>Home</Link>
